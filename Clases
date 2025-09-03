@@ -1,0 +1,163 @@
+package clases;
+
+public class Vehiculo {
+
+	private int velocidad;
+	private float capacidad;
+	private String placa;
+	
+	private Vehiculo (int velocidad, float capacidad, String placa) {
+		this.velocidad = velocidad;
+		this.capacidad = capacidad;
+		this.placa = placa;
+	}
+	
+	private int SetVelocidad() {
+		return velocidad;
+	}
+
+	private int GetVelocidad() {
+		return velocidad;
+	}
+	
+	private float SetCapacidad() {
+		return capacidad;
+	}
+
+	private float GetCapacidad() {
+		return capacidad;
+	}
+	
+	private String SetPlaca() {
+		return placa;
+	}
+	
+	private String GetPlaca() {
+		return placa;
+	}
+	
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+package clases;
+
+public class auto extends Vehiculo{
+	
+	private int velocidad;
+	private int CantidadPuertas;
+	private String TipoCombustible;
+	
+	private auto (int velocidad, int CantidadPuertas, String TipoCombustible) {
+		super (velocidad, capacidad, placa);
+		this.velocidad = velocidad;
+		this.CantidadPuertas = CantidadPuertas;
+		this.TipoCombustible = TipoCombustible;
+	}
+	
+	private int SetVelocidad() {
+		return velocidad;
+	}
+
+	private int GetVelocidad() {
+		return velocidad;
+	}
+	
+	private int SetCantidadPuertas() {
+		return CantidadPuertas;
+	}
+
+	private int GetCantidadPuertas() {
+		return CantidadPuertas;
+	}
+	
+	private String SetTipoCombustible() {
+		return TipoCombustible;
+	}
+	
+	private String GetTipoCombustible() {
+		return TipoCombustible;
+	}
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+package clases;
+
+public class Camion extends Vehiculo{
+
+	private float capacidad;
+	private float CapacidadCarga;
+	private int CantidadEjes;
+	
+	private Camion (float capacidad, float CantidadCarga, int CantidadEjes) {
+		super (velocidad, capacidad, placa);
+		this.capacidad = capacidad;
+		this.CapacidadCarga = CapacidadCarga;
+		this.CantidadEjes = CantidadEjes;
+	}
+	
+	private float SetCapacidad() {
+		return capacidad;
+	}
+
+	private float GetCapacidad() {
+		return capacidad;
+	}
+	
+	private float SetCapacidadCarga() {
+		return CapacidadCarga;
+	}
+
+	private float GetCapacidadCarga() {
+		return CapacidadCarga;
+	}
+	
+	private int SetCantidadEjes() {
+		return CantidadEjes;
+	}
+
+	private int GetCantidadEjes() {
+		return CantidadEjes;
+	}
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+package clases;
+
+public class Moto extends Vehiculo{
+	
+	private int velocidad;
+	private float Cilindrada;
+	private String Baul;
+	
+	private moto (int velocidad, float, Cilindrada, String Baul) {
+		super (velocidad, capacidad, placa);
+		this.velocidad = velocidad;
+		this.Cilindrada = Cilindrada;
+		this.Baul = Baul;
+	}
+	
+	private int SetVelocidad() {
+		return velocidad;
+	}
+
+	private int GetVelocidad() {
+		return velocidad;
+	}
+	
+	private float SetCilindrada() {
+		return Cilindrada;
+	}
+
+	private float GetCilindrada() {
+		return Cilindrada;
+	}
+	
+	private String SetBaul() {
+		return Baul;
+	}
+	
+	private String GetBaul() {
+		return Baul;
+	}
+
+}
