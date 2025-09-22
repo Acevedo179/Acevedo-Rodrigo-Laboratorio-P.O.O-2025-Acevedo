@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4">
+  <diagram name="Página-1" id="6UpBFqZo3CaJrk2BoYfg">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qCe4EH64ArFJIKRTJQhA-1" value="Electrodomestico" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qCe4EH64ArFJIKRTJQhA-2" value="- Marca: String&lt;br&gt;- precioBase: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qCe4EH64ArFJIKRTJQhA-1">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qCe4EH64ArFJIKRTJQhA-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qCe4EH64ArFJIKRTJQhA-1">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qCe4EH64ArFJIKRTJQhA-4" value="- SetMarca(): String&lt;br&gt;- SetPrecioBase(): int&lt;br&gt;- GetMarca(): void&lt;br&gt;- GetPrecioBase(): void&lt;br&gt;&lt;br&gt;- CalcularPrecioFinal(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qCe4EH64ArFJIKRTJQhA-1">
+          <mxGeometry y="88" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="6kBx5oa-WJD_B7gO3-Qz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="6kBx5oa-WJD_B7gO3-Qz-1" target="qCe4EH64ArFJIKRTJQhA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kBx5oa-WJD_B7gO3-Qz-1" value="Heladera" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6kBx5oa-WJD_B7gO3-Qz-13" value="- Marca: String&lt;br&gt;- precioBase: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6kBx5oa-WJD_B7gO3-Qz-1">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6kBx5oa-WJD_B7gO3-Qz-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="6kBx5oa-WJD_B7gO3-Qz-1">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6kBx5oa-WJD_B7gO3-Qz-15" value="- SetMarca(): String&lt;br&gt;- SetPrecioBase(): int&lt;br&gt;- GetMarca(): void&lt;br&gt;- GetPrecioBase(): void&lt;br&gt;&lt;br&gt;- CalcularPrecioFinal(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6kBx5oa-WJD_B7gO3-Qz-1">
+          <mxGeometry y="88" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="6kBx5oa-WJD_B7gO3-Qz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="6kBx5oa-WJD_B7gO3-Qz-5" target="qCe4EH64ArFJIKRTJQhA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kBx5oa-WJD_B7gO3-Qz-5" value="Lavarropas" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="400" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6kBx5oa-WJD_B7gO3-Qz-14" value="- Marca: String&lt;br&gt;- precioBase: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6kBx5oa-WJD_B7gO3-Qz-5">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6kBx5oa-WJD_B7gO3-Qz-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="6kBx5oa-WJD_B7gO3-Qz-5">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6kBx5oa-WJD_B7gO3-Qz-16" value="- SetMarca(): String&lt;br&gt;- SetPrecioBase(): int&lt;br&gt;- GetMarca(): void&lt;br&gt;- GetPrecioBase(): void&lt;br&gt;&lt;br&gt;- CalcularPrecioFinal(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6kBx5oa-WJD_B7gO3-Qz-5">
+          <mxGeometry y="88" width="160" height="112" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
